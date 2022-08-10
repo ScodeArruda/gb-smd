@@ -21,6 +21,12 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+/**Angular Material */
+
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+
 
 const mdbModules = [
     BrowserModule,
@@ -40,6 +46,11 @@ const mdbModules = [
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+
+    /**Import Angular Material */
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
 ];
 
 @NgModule({
